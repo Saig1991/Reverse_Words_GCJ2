@@ -1,0 +1,20 @@
+My solution to the reverse words problem:
+Given a list of space separated words, reverse the order of the words. Each line of text contains L letters and W words.
+A line will only consist of letters and space characters. There will be exactly one space character between each pair of consecutive words.
+
+Solution:
+The basic algorithm would simply be to add each word seperately to a list and then use an stl algorithm to reverse the list.
+However, in this solution I'll implement the reverse algorithm myself.
+
+main.cpp:
+Read in the file. Iterate through each test case. Construct a vector with the list of words. Pass this vector to the Reverser object.
+The object does it's work and then returns the reversed list.
+
+Reverser.cpp/h:
+Reverser(std::vector<std::string> wordList)
+void reverseList()
+void newList(std::vector<std::string> wordList)
+void printList()
+
+
+

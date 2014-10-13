@@ -7,14 +7,7 @@ The basic algorithm would simply be to add each word seperately to a list and th
 However, in this solution I'll implement the reverse algorithm myself.
 
 main.cpp:
-Read in the file. Iterate through each test case. Construct a vector with the list of words. Pass this vector to the Reverser object.
-The object does it's work and then returns the reversed list.
-
-Reverser.cpp/h:
-Reverser(std::vector<std::string> wordList)
-void reverseList()
-void newList(std::vector<std::string> wordList)
-void printList()
+Read in the file. Iterate through each test case. Construct a vector with the list of words in reverse. Print out the vector.
 
 
 
